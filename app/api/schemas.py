@@ -28,7 +28,7 @@ class ShiftResponse(BaseModel):
     date: datetime.date
 
     class Config:
-        use_enum_vallues = True
+        use_enum_values = True
 
 class ShiftCreate(ShiftResponse):
     worker_id: int
